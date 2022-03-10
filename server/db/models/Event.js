@@ -15,7 +15,7 @@ const Event = db.define('event', {
   },
   time: {
     type: Sequelize.TIME,
-    allowNull: false
+
   },
   age: {
       type: Sequelize.INTEGER
